@@ -31,4 +31,4 @@ function createFallingFruit() {
 }
 
 // Gyümölcs animációk indítása
-setInterval(createFallingFruit, 500);
+setInterval(createFallingFruit, 300);
