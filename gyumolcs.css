@@ -1,0 +1,53 @@
+body {
+                    margin: 0;
+                    overflow: hidden;
+                    background-color: rgb(166,196,166);
+                  }
+                  
+                  #gyumolcsContainer {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    pointer-events: none;
+                  }
+                  
+
+                  body {
+                    margin: 0;
+                    overflow: hidden;
+                  }
+                  
+                  #container5 {
+                    position: relative;
+                    width: 100vw;
+                    height: 100vh;
+                  }
+                  
+                  .falling-fruit {
+                    position: absolute;
+                    font-size: 24px;
+                    opacity: 0;
+                    transform: translateY(0);
+                    pointer-events: none;
+                  }
+                  
+                  .enlargable {
+                    font-size: 48px;
+                    cursor: pointer;
+                    transition: transform 0.3s;
+                  }
+                  
+                  .enlarged {
+                    transform: scale(0.1);
+                  }
+                  
+
+                  #gyumi {
+                    position: fixed;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    max-width: 100%;
+                  }
